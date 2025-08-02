@@ -1,6 +1,7 @@
 {
   "expo": {
-    "name": "remedi",
+    "owner": "devonkedev",
+    "name": "Remedi",
     "slug": "remedi",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -47,7 +48,7 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "fd52958b-f1a5-4685-98d5-343faf21f9f5"
+        "projectId": "f3771200-6a51-41ea-9114-12cdb8ae0998"
       }
     }
   }
