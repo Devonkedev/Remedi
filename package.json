@@ -1,0 +1,41 @@
+{
+  "name": "remedi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "2.1.2",
+    "@react-native-community/datetimepicker": "8.4.1",
+    "@react-navigation/native": "^7.0.19",
+    "@react-navigation/stack": "^7.2.3",
+    "date-fns": "^4.1.0",
+    "expo": "^53.0.9",
+    "expo-dev-client": "~5.2.1",
+    "expo-device": "~7.1.4",
+    "expo-image-manipulator": "~13.1.7",
+    "expo-image-picker": "~16.1.4",
+    "expo-notifications": "~0.31.2",
+    "expo-status-bar": "~2.2.3",
+    "firebase": "^11.7.3",
+    "react": "19.0.0",
+    "react-native": "0.79.2",
+    "react-native-gesture-handler": "~2.24.0",
+    "react-native-paper": "^5.13.1",
+    "react-native-paper-dates": "^0.22.40",
+    "react-native-paper-dropdown": "^2.3.1",
+    "react-native-responsive-screen": "^1.4.2",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-screens": "~4.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~19.0.10",
+    "typescript": "~5.8.3"
+  },
+  "private": true
+}
