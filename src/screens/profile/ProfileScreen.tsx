@@ -25,12 +25,12 @@ const ProfileScreen = ({ navigation }) => {
     email: '',
     dob: '',
     phone: '',
-    gender: '',
-    address: '',
-    language: '',
-    timeZone: '',
-    notificationPreference: '',
-    accountStatus: '',
+    // gender: '',
+    // address: '',
+    // language: '',
+    // timeZone: '',
+    // notificationPreference: '',
+    // accountStatus: '',
   });
 
   const handlePress = () => {
@@ -58,12 +58,12 @@ const ProfileScreen = ({ navigation }) => {
         email: '',
         dob: '',
         phone: '',
-        gender: '',
-        address: '',
-        language: '',
-        timeZone: '',
-        notificationPreference: '',
-        accountStatus: '',
+        // gender: '',
+        // address: '',
+        // language: '',
+        // timeZone: '',
+        // notificationPreference: '',
+        // accountStatus: '',
       })
     )
   }, []);
@@ -73,12 +73,12 @@ const ProfileScreen = ({ navigation }) => {
     { key: 'email', label: 'Email', value: profileData.email },
     { key: 'dob', label: 'Date of Birth', value: profileData.dob },
     { key: 'phone', label: 'Phone', value: profileData.phone },
-    { key: 'gender', label: 'Gender', value: profileData.gender },
-    { key: 'address', label: 'Address', value: profileData.address },
-    { key: 'language', label: 'Language', value: profileData.language },
-    { key: 'timeZone', label: 'Time Zone', value: profileData.timeZone },
-    { key: 'notificationPreference', label: 'Notification Preference', value: profileData.notificationPreference },
-    { key: 'accountStatus', label: 'Account Status', value: profileData.accountStatus },
+    // { key: 'gender', label: 'Gender', value: profileData.gender },
+    // { key: 'address', label: 'Address', value: profileData.address },
+    // { key: 'language', label: 'Language', value: profileData.language },
+    // { key: 'timeZone', label: 'Time Zone', value: profileData.timeZone },
+    // { key: 'notificationPreference', label: 'Notification Preference', value: profileData.notificationPreference },
+    // { key: 'accountStatus', label: 'Account Status', value: profileData.accountStatus },
   ];
 
   return (
