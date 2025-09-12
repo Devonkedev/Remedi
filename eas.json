@@ -1,0 +1,26 @@
+{
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "ANDROID_HOME": "/home/devyanshgarg/Android/Sdk",
+        "ORG_GRADLE_JAVA_OPTS": "-Xmx4g"
+      }
+    },
+    "production": {
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "ORG_GRADLE_JAVA_OPTS": "-Xmx4g"
+      }
+    }
+  },
+  "cli": {
+    "version": ">= 3.0.0"
+  }
+} 

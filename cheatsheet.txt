@@ -1,0 +1,27 @@
+https://dribbble.com/shots/22701517-Prescription-Tracker-app
+
+https://dribbble.com/shots/14384196-Home-Chat-Screen-Doctor-Appointment-App
+
+npx expo prebuild - for native code generation
+npx expo run:android - for dev build
+
+
+For a dev build:
+eas build -p android --profile development
+
+For a production APK:
+eas build -p android --profile production
+
+eas build --profile development --platform android --local
+
+npx expo run:android
+
+This will generate a universal APK for easy distribution and install on any Android device.
+Let me know if you need a Play Store (AAB) profile or iOS config as well!
+
+
+
+NEW BUILD
+cd android
+./gradlew clean
+./gradlew assembleRelease
