@@ -55,7 +55,7 @@ const HealthScreen = ({ navigation }) => {
             <ScrollView>
                 <CustomHeader
                     label={'Health Stats'}
-                    subheading={'A place to add your health vitals'}
+                    subheading={'Here you can add your health vitals'}
                     image_url={'https://static.vecteezy.com/system/resources/previews/004/413/150/non_2x/simple-illustration-that-prevent-heart-attack-heart-health-cardiology-outlined-icon-free-vector.jpg'}
                 />
 

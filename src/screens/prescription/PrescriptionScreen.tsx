@@ -37,7 +37,7 @@ const CustomHeader = () => {
       <View>
         <Text variant="titleLarge" style={{ textAlign: 'center' }}>Prescriptions</Text>
         <Text variant="titleMedium" style={{ textAlign: 'center' }}>
-          Here you can view all your prescriptions
+          Here you can add your prescriptions
         </Text>
       </View>
     </View>
