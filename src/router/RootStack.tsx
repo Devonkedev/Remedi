@@ -113,7 +113,7 @@ const BottomNavigation = () => {
         options={{
           tabBarLabel: 'Health',
           tabBarIcon: ({ color }) => (
-            <Ionicons name="body" color={color} size={26} />
+            <MaterialCommunityIcons name="human" color={color} size={26} />
           ),
         }}
       />
