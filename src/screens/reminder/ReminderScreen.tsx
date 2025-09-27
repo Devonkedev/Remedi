@@ -36,7 +36,6 @@ const CustomCardSection = ({ name, detail, type }) => {
 
 
 const CustomListCard = ({ data }) => {
-  console.log(data);
 
   const formatReminderDate = (dateString: string, timeString: string) => {
     const dateObj = new Date(dateString); // Convert the date string to a Date object.

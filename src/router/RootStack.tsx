@@ -136,7 +136,6 @@ const RootStack = () => {
 
   useEffect(() => {
     onAuthStateChanged(auth, (user) => {
-      console.log(user)
       setUser(user)
     })
   }, [])

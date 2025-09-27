@@ -63,7 +63,7 @@ const EditProfileScreen = ({ navigation }) => {
           label={'Profile'}
           subheading={'Here you can edit your profile.'}
           image_url={
-            'https://static.vecteezy.com/system/resources/thumbnails/002/002/403/small/man-with-beard-avatar-character-isolated-icon-free-vector.jpg'
+            'https://i.postimg.cc/850GGdyL/Screenshot-2025-09-27-at-1-13-48-PM.png'
           }
         />
 

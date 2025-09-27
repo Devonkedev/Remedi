@@ -22,7 +22,8 @@ const ProfileHealthSection = ({ item }) => (
 const ProfileScreen = ({ navigation }) => {
   const [profileData, setProfileData] = useState({
     name: '',
-    email: '',
+    email: '', 
+     
     dob: '',
     phone: '',
     // gender: '',
@@ -89,7 +90,7 @@ const ProfileScreen = ({ navigation }) => {
         <CustomHeader
           label="Profile"
           subheading="Here you can edit your profile."
-          image_url="https://static.vecteezy.com/system/resources/thumbnails/002/002/403/small/man-with-beard-avatar-character-isolated-icon-free-vector.jpg"
+          image_url="https://i.postimg.cc/850GGdyL/Screenshot-2025-09-27-at-1-13-48-PM.png"
         />
 
         <CustomJuniorHeader label={'Profile'} action={() => { }} />

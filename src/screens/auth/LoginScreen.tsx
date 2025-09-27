@@ -27,7 +27,6 @@ const LoginScreen = ({ navigation }) => {
 
   const handleLogin = async () => {
     setLoading(true);
-    console.log(email, password);
     if (!email || !password) {
       setLoading(false);
       return Alert.alert("Empty fields are not allowed");

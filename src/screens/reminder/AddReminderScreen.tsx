@@ -31,7 +31,7 @@ const AddReminderScreen = ({ navigation }) => {
 
     const handleSave = async () => {
         setLoading(true);
-        
+
         if (!name || !type || !inputDate || !time) {
             Alert.alert("Error", "Please fill all required fields");
             setLoading(false);
@@ -70,7 +70,7 @@ const AddReminderScreen = ({ navigation }) => {
         if (Platform.OS === 'android') {
             setDateVisible(false);
         }
-        
+
         if (selectedDate && event.type !== 'dismissed') {
             setInputDate(selectedDate);
         }
@@ -114,10 +114,10 @@ const AddReminderScreen = ({ navigation }) => {
                 visible={dropdownVisible}
                 onDismiss={() => setDropdownVisible(false)}
                 anchor={
-                    <Button 
-                        mode="outlined" 
+                    <Button
+                        mode="outlined"
                         onPress={() => setDropdownVisible(true)}
-                        style={{ 
+                        style={{
                             justifyContent: 'flex-start',
                             paddingVertical: 8,
                         }}
@@ -150,10 +150,10 @@ const AddReminderScreen = ({ navigation }) => {
             </Menu>
 
             {/* Custom Date Picker */}
-            <Button 
-                mode="outlined" 
+            <Button
+                mode="outlined"
                 onPress={() => setDateVisible(true)}
-                style={{ 
+                style={{
                     justifyContent: 'flex-start',
                     paddingVertical: 8,
                 }}
@@ -176,10 +176,10 @@ const AddReminderScreen = ({ navigation }) => {
             )}
 
             {/* Time Picker */}
-            <Button 
-                onPress={() => setTimeVisible(true)} 
+            <Button
+                onPress={() => setTimeVisible(true)}
                 mode="outlined"
-                style={{ 
+                style={{
                     justifyContent: 'flex-start',
                     paddingVertical: 8,
                 }}
@@ -209,15 +209,18 @@ const AddReminderScreen = ({ navigation }) => {
                 mode="outlined"
             />
 
-            <Button 
-                icon="alarm-bell" 
-                mode="contained" 
-                loading={loading} 
+            <Button
+                icon="alarm-bell"
+                mode="contained"
+                loading={loading}
                 onPress={handleSave}
                 disabled={loading}
                 style={{ marginTop: wp(2) }}
             >
                 Save Reminder
+            </Button>
+            <Button mode="contained" onPress={() => navigation.replace("ReminderScreen")}>
+                Go back
             </Button>
         </ScrollView>
     );

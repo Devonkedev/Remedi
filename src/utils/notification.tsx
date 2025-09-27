@@ -97,7 +97,6 @@ export const scheduleLocalNotification = async ({
       },
     });
 
-    console.log('Two notifications successfully scheduled');
     return true;
   } catch (error) {
     console.error('Error scheduling local notification:', error);
