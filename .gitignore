@@ -40,3 +40,5 @@ src/config
 android/local.properties
 ios/Pods/
 ios/build/
+android/app/my-release-key.keystore
+android/gradle.properties
